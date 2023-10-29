@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inline-block {
+    list-style: none;
+    padding-left: 5px;
+    word-spacing: 50px;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.imgOne{
+    display: inline-block;
+    padding-left: 5px;
+    max-width: 10%;
+    height: auto;
+    padding-top: 15px;
+}
+
+.heroImg{
+    padding: 100px 15px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    color:#0C2E6E;
+  }
+
+.footer{
+    display: inline-block;
+    padding: 0px 7px;
+    color: #333333;
+    padding-top: 100px;
+}
+
+.tab{
+    list-style: none;
+    padding-left: 5px;
+    word-spacing: 50px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+.portfolio{
+    background-color: #FEFBF6;
+    font-family: 'Bitter', serif;
+}
+
+header {
+    padding: 15px;
+    display: inline-block;
+}
+
+header ul {
+    float: right;
+    color: #333333;
+    
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+header .inline-block{
+    display: inline;
+}
+
+
+.imgTwo{
+    text-align: center;
+    height: auto;
+    max-width: 15%;
+}
+
+.button{
+    background-color: #FEFBF6;
+    font-family: 'Bitter', serif;
+    border-style: hidden;
+}
+
+.imgThree{
+    text-align: center;
+    height: auto;
+    max-width: 30%;
+}
+
+<!--  My UX Skills section coded using CSS flex /
+
+.mySkills{
+    flex-direction: row;
+}
+
+.mySkills h1{
+    text-align: center;
+    font-weight: 400;
+    color:#333333;
+} 
+
+.flexContainer{
+    display: flex;
+    text-align: center;
+    color: #333333;
+    background-color: #F2EBE1;
+    height: 250px;
+    border: 1px #F2EBE1;
+    padding: 50px;
+    margin: 40px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #eeeded;
+}
+
+.flexContainer div{
+    padding: 10px;
+    text-align: center;
+}
+
+.flexContainer img{
+    height: 35%;
+}
+
+.flexContainer p{
+    font-family: 'Quicksand', serif;
+    color: #333333;
+}
+
+.flexContainer h3{
+    font-weight: 400;
+    color: #333333;
+}
+
+.myToolbox{
+    padding: 50px;
+}
+
+.myToolbox h1{
+    font-family: 'bitter',serif;
+    font-weight: 400;
+    text-align: center;
+    color:#333333;
+}
+
+.tools{
+    font-family: 'quicksand',serif;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+    line-height: 2;
+    padding-right: 40px;
+    background-color: #F2EBE1;
+    height: 250px;
+    border: 1px #F2EBE1;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #eeeded;
+    height: 150px;
+    font-size: larger;
+}
+
+<!-- My Work Section Constructed using CSS Grid /
+
+.workGrid{
+    display: grid;
+    width: 80%;
+    max-width: 1170px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px 30px;
+    grid-template-areas: 
+        "localLens" "item2"
+        "item4" "govAgency"
+        "RDR" "item6";
+}
+
+.gridContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #FEFBF6;
+}
+
+.workGrid{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.localLens{
+    max-width: 320px;
+    float: left;
+    margin-right: 90px;
+    padding-bottom: 150px;
+}
+
+.govAgency{
+    max-width: 480px;
+    float: right;
+    margin-left: 30px;
+    padding-bottom: 150px;
+}
+
+.RDR{
+    max-width: 480px;
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.item6{
+    margin-left: 500px;
+}
+
+.item2{
+    margin-left: 500px;
+}
+
+.workHeader h1{
+    font-family: 'bitter', serif;
+    font-weight: 400;
+    padding-left: 0;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.item2 h5{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.item4 h5{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.item6 h5{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.item2 h4{
+    font-size:xx-large;
+    font-weight: 300;
+}
+
+.item4 h4{
+    font-size:xx-large;
+    font-weight: 300;
+}
+
+.item6 h4{
+    font-size:xx-large;
+    font-weight: 300;
+}
+
+.item2 p{
+    font-family: 'quicksand', serif;
+    font-weight: 400;
+    font-size:medium;
+    padding-bottom: 20px;
+}
+
+.item4 p{
+    font-family: 'quicksand', serif;
+    font-weight: 400;
+    font-size:medium;
+    padding-bottom: 20px;
+}
+
+.item6 p{
+    font-family: 'quicksand', serif;
+    font-weight: 400;
+    font-size:medium;
+    padding-bottom: 20px;
+}
+
+.item2 button{
+    font-family: 'quicksand', serif;
+    font-weight: 500;
+    font-size:medium;
+    padding: 15px 50px;
+    color:#333333;
+    border-color: #333333;
+    border-radius: 50px;
+    background-color: #FEFBF6;
+}
+
+.item4 button{
+    font-family: 'quicksand', serif;
+    font-weight: 500;
+    font-size:medium;
+    padding: 15px 50px;
+    color:#333333;
+    border-color: #333333;
+    border-radius: 50px;
+    background-color: #FEFBF6;
+}
+
+.item6 button{
+    font-family: 'quicksand', serif;
+    font-weight: 500;
+    font-size:medium;
+    padding: 15px 50px;
+    color:#333333;
+    border-color: #333333;
+    border-radius: 50px;
+    background-color: #FEFBF6;
+}
+
+.item2{
+    padding-bottom: 150px;
+}
+
+.item4{
+    padding-bottom: 150px;
+}
+
+.item6{
+    padding-bottom: 150px;
+}
+
+
+
+
+
+@media only screen and (max-width:600){
+    flex container{ 
+        flex-direction: column;
+        width: 100%;
+    }
+    #gridContainer{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "localLens"
+            "item2"
+            "govAgency"
+            "item4"
+            "RDR"
+            "item6";
+    }
+}
