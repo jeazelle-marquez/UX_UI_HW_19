@@ -356,7 +356,34 @@ header .inline-block{
     display:inline-block;
 }
 
+.footerContent{
+    font-family: 'quicksand', serif;
+    color:#333333;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 500px;
+    text-align: center;
+    font-size:large;
+}
 
+.headerTab{
+    color:#0C2E6E;
+}
+
+.copyright{
+    font-family: 'quicksand', serif;
+    color:#333333;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 500px;
+    padding-top: 60px;
+    text-align: center;
+    font-size:small;
+}
+
+.button{
+    font-size: large;
+}
 
 @media only screen and (max-width:600){
     flex container{ 
