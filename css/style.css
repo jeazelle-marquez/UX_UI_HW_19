@@ -1,3 +1,7 @@
+html{ 
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -29,11 +33,13 @@ body {
 }
 
 .content {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 50px;
     text-align: center;
     color:#0C2E6E;
+    font-size:xx-large;
+    font-weight: lighter;
   }
 
 .footer{
@@ -100,7 +106,7 @@ header .inline-block{
 .imgThree{
     text-align: center;
     height: auto;
-    max-width: 30%;
+    max-width: 20%;
 }
 
 <!--  My UX Skills section coded using CSS flex /
@@ -338,7 +344,17 @@ header .inline-block{
     padding-bottom: 150px;
 }
 
-
+.arrowUp{
+    height:auto;
+    max-width:4%;
+    padding-bottom:10px;
+    padding-right:20px;
+    border-style: hidden;
+    background-color: #FEFBF6;
+    position: absolute;
+    right: 0%;  
+    display:inline-block;
+}
 
 
 
